@@ -1,0 +1,68 @@
+body {
+	font-family: verdana;
+}
+
+.container {
+	text-align: center;
+}
+
+.cookieBackground {
+	position: fixed;
+	z-index: -3;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image: url('./images/countertop.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.imageContainer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-top: 14em;
+}
+
+.imgShaper {
+	display: block;
+	width: 15em;
+	height: 15em;
+	margin: 0 5.5em;
+  	cursor: pointer;
+}
+
+.buttonStyle {
+	display: block;
+	margin: 0;
+	margin-top: 1em;
+	cursor: pointer;
+}
+
+.buttonSize {
+	font-size: 3em;
+	color: gold;
+}
+
+.oreoClickCount, .chocochipClickCount, .gingerbreadClickCount {
+	width: 3em;
+	height: 3em;
+}
+
+.oreoClickCount {
+	color: white;
+}
+
+.chocochipClickCount {
+	color: brown;
+}
+
+.gingerbreadClickCount {
+	color: #AF0900;
+}
+
+.totalCount {
+	font-size: 2em;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Cookies</title>
+</head>
+
+<body>
+  <h1>
+    Cookie Counter
+  </h1>
+  <div class="container">
+    <div class=cookieBackground></div>
+    <div class="button">
+      <div class="totalCount">Count: 0</div>
+      <!-- <div class="buttonStyle buttonSize count" onclick="cookieCount()">Count</div> -->
+      <div class="buttonStyle buttonSize">
+        <div class="count" onclick="reset()">Reset</div>
+      </div>
+    </div>
+    <div class="imageContainer">
+      <div class="oreoClickCount">Count: 0</div>
+      <img class="imgShaper" src="./images/oreo.webp" onclick="oreoCounter()">
+      <div class="chocochipClickCount">Count: 0</div>
+      <img class="imgShaper" src="./images/chocolate-chip-cookie.webp" onclick="chocoChipCounter()">
+      <div class="gingerbreadClickCount">Count: 0</div>
+      <img class="imgShaper" src="images/gingerbread-cookie1.webp" onclick="gbCookieCounter()">
+    </div>
+  </div>
+  <script src="./cookies.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
